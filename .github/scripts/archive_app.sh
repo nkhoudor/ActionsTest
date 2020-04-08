@@ -2,6 +2,8 @@
 
 set -eo pipefail
 
+pod install
+
 xcodebuild -workspace ActionsTest.xcworkspace \
             -scheme ActionsTest \
             -sdk iphoneos \
