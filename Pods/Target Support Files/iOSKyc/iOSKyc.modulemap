@@ -1,0 +1,6 @@
+framework module iOSKyc {
+  umbrella header "iOSKyc-umbrella.h"
+
+  export *
+  module * { export * }
+}

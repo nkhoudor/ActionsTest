@@ -8,6 +8,7 @@
 
 import UIKit
 import SwiftyJSON
+import iOSKyc
 
 class ViewController: UIViewController {
 
@@ -18,7 +19,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         let json = JSON(parseJSON: jsonStr)
-        label.text = json["name"].stringValue
+        label.text = String(describing: KYCModulesAssembly.self)
         // Do any additional setup after loading the view.
     }
 

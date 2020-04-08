@@ -1,16 +1,147 @@
 PODS:
+  - FlagKit (2.2)
+  - iOSBaseViews (0.1.2):
+    - FlagKit
+    - MaterialComponents/ActivityIndicator
+    - OverlayContainer
+    - PinLayout (~> 1.8.13)
+    - RxKeyboard (~> 1.0.0)
+    - RxRelay (~> 5.0.0)
+    - RxSwift (~> 5.0.0)
+  - iOSCoreSDK (0.1.7):
+    - RxRelay (~> 5.0.0)
+    - RxSwift (~> 5.0.0)
+    - Socket.IO-Client-Swift (~> 15.2.0)
+  - iOSKyc (0.1.4):
+    - FlagKit
+    - iOSBaseViews
+    - iOSCoreSDK
+    - iOSKycSDK
+    - iOSKycViews
+    - IQKeyboardManagerSwift
+    - Kingfisher
+    - SwiftyJSON
+    - Swinject
+    - SwinjectAutoregistration
+  - iOSKycSDK (0.1.3):
+    - iOSCoreSDK
+  - iOSKycViews (0.1.2):
+    - iOSBaseViews
+    - IQKeyboardManagerSwift
+    - MaterialComponents/ActivityIndicator
+    - PhoneNumberKit (~> 3.1.0)
+    - PinLayout (~> 1.8.13)
+    - RxKeyboard (~> 1.0.0)
+    - RxRelay (~> 5.0.0)
+    - RxSwift (~> 5.0.0)
+  - IQKeyboardManagerSwift (6.5.5)
+  - Kingfisher (5.13.2):
+    - Kingfisher/Core (= 5.13.2)
+  - Kingfisher/Core (5.13.2)
+  - MaterialComponents/ActivityIndicator (107.1.0):
+    - MaterialComponents/Palettes
+    - MaterialComponents/private/Application
+    - MDFInternationalization
+    - MotionAnimator (~> 2.0)
+  - MaterialComponents/Palettes (107.1.0)
+  - MaterialComponents/private/Application (107.1.0)
+  - MDFInternationalization (2.0.0)
+  - MotionAnimator (2.8.1):
+    - MotionInterchange (~> 1.6)
+  - MotionInterchange (1.6.0)
+  - OverlayContainer (3.3.0)
+  - PhoneNumberKit (3.1.0):
+    - PhoneNumberKit/PhoneNumberKitCore (= 3.1.0)
+    - PhoneNumberKit/UIKit (= 3.1.0)
+  - PhoneNumberKit/PhoneNumberKitCore (3.1.0)
+  - PhoneNumberKit/UIKit (3.1.0):
+    - PhoneNumberKit/PhoneNumberKitCore
+  - PinLayout (1.8.13)
+  - RxCocoa (5.1.0):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxKeyboard (1.0.0):
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
+  - RxRelay (5.0.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.0.1)
+  - Socket.IO-Client-Swift (15.2.0):
+    - Starscream (~> 3.1)
+  - Starscream (3.1.1)
   - SwiftyJSON (5.0.0)
+  - Swinject (2.7.1)
+  - SwinjectAutoregistration (2.7.0):
+    - Swinject (~> 2.7)
 
 DEPENDENCIES:
+  - FlagKit
+  - iOSBaseViews
+  - iOSCoreSDK
+  - iOSKyc
+  - iOSKycSDK
+  - iOSKycViews
+  - IQKeyboardManagerSwift
+  - Kingfisher
   - SwiftyJSON
+  - Swinject
+  - SwinjectAutoregistration
 
 SPEC REPOS:
+  "git@github.com:Optherium/Pods.git":
+    - iOSBaseViews
+    - iOSCoreSDK
+    - iOSKyc
+    - iOSKycSDK
+    - iOSKycViews
+  https://github.com/CocoaPods/Specs.git:
+    - FlagKit
+    - IQKeyboardManagerSwift
+    - Kingfisher
+    - MaterialComponents
+    - MDFInternationalization
+    - MotionAnimator
+    - MotionInterchange
+    - OverlayContainer
+    - PhoneNumberKit
+    - PinLayout
+    - RxCocoa
+    - RxKeyboard
+    - RxRelay
+    - RxSwift
+    - Socket.IO-Client-Swift
+    - Starscream
+    - Swinject
+    - SwinjectAutoregistration
   trunk:
     - SwiftyJSON
 
 SPEC CHECKSUMS:
+  FlagKit: eca7dc89064b0c986302ba9acefad1bf80a435b1
+  iOSBaseViews: d5bd2afffc15874587f06b9bdf54e4f4462a1d79
+  iOSCoreSDK: 4231c246cbb8fe64caa58a6adf6cf28123af84d1
+  iOSKyc: e9e7690732f8d93759166a577d1685cbf897a0c5
+  iOSKycSDK: 41a56ee951a780fe14d0291a26ca87aa077f9c9e
+  iOSKycViews: 67dfe504b8b60a861dd64777edfc6fb03b3b6050
+  IQKeyboardManagerSwift: 0fb93310284665245591f50f7a5e38de615960b7
+  Kingfisher: d342c8354c10c3d85a27d6d4c42c41285924b898
+  MaterialComponents: 12ba01c537f9728d9cd739c6c46888abce8198d4
+  MDFInternationalization: 010097556d6b09d2c4ea38e0820ea6d37be6a314
+  MotionAnimator: ee16aa30567c5bae0fb2750c132915829cfaaf8a
+  MotionInterchange: ead0e3ae1f3a5fb539e289debbc7ae036160a10d
+  OverlayContainer: d48ca33fbefe91dc2943622c4a5a8ea2b8d16ead
+  PhoneNumberKit: adffe4e128af1918386e09e7421d3d851a2987af
+  PinLayout: e41a50260a76508b7a7fcee8955c76639adc69bc
+  RxCocoa: 13d2a4d7546a34b8ececae8c281e4ea1dbb94f2b
+  RxKeyboard: 6683c4344304a00f943c158bd8a43ce5469c82a7
+  RxRelay: 89d54507f4fd4d969e6ec1d4bd7f3673640b4640
+  RxSwift: e2dc62b366a3adf6a0be44ba9f405efd4c94e0c4
+  Socket.IO-Client-Swift: 1e3e3a1f09f3312a167f0d781eb2f383d477357c
+  Starscream: 4bb2f9942274833f7b4d296a55504dcfc7edb7b0
   SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  Swinject: ddf78b8486dd9b71a667b852cad919ab4484478e
+  SwinjectAutoregistration: 330f5012642a8b5c89a8a4adb0c5e52df07382c0
 
-PODFILE CHECKSUM: 1d958469f8ef96fe74af71ea0fc5009d85f5b8b3
+PODFILE CHECKSUM: f20c9965c44285e23d492620bd01421a05bacee3
 
 COCOAPODS: 1.8.4

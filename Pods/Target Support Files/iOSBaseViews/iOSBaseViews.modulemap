@@ -1,0 +1,6 @@
+framework module iOSBaseViews {
+  umbrella header "iOSBaseViews-umbrella.h"
+
+  export *
+  module * { export * }
+}
