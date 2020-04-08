@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -88,7 +88,6 @@
 				8A372AC7C3D2908754CC4953 /* Pods-ActionsTest.debug.xcconfig */,
 				6D28AD60D350350DB901546B /* Pods-ActionsTest.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -354,7 +353,8 @@
 			baseConfigurationReference = 8A372AC7C3D2908754CC4953 /* Pods-ActionsTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = XTUSMJ8H4K;
 				INFOPLIST_FILE = ActionsTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -363,6 +363,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = rocket.ActionsTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Actions Test Dist";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -373,7 +374,8 @@
 			baseConfigurationReference = 6D28AD60D350350DB901546B /* Pods-ActionsTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = XTUSMJ8H4K;
 				INFOPLIST_FILE = ActionsTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -382,6 +384,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = rocket.ActionsTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Actions Test Dist";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
