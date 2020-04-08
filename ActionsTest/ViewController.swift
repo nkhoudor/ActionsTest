@@ -11,7 +11,7 @@ import SwiftyJSON
 
 class ViewController: UIViewController {
 
-    let jsonStr = "{\"name\" : \"test\"}"
+    let jsonStr = "{\"name\" : \"test2\"}"
     
     @IBOutlet weak var label: UILabel!
     
