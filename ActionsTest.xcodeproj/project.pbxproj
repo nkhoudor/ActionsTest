@@ -14,6 +14,7 @@
 		84C54004243E591700B73872 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C54002243E591700B73872 /* Main.storyboard */; };
 		84C54006243E591800B73872 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84C54005243E591800B73872 /* Assets.xcassets */; };
 		84C54009243E591800B73872 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C54007243E591800B73872 /* LaunchScreen.storyboard */; };
+		84C54011243E671B00B73872 /* exportOptions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84C54010243E671A00B73872 /* exportOptions.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		84C54005243E591800B73872 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84C54008243E591800B73872 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84C5400A243E591800B73872 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84C54010243E671A00B73872 /* exportOptions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = exportOptions.plist; sourceTree = "<group>"; };
 		8A372AC7C3D2908754CC4953 /* Pods-ActionsTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ActionsTest.debug.xcconfig"; path = "Target Support Files/Pods-ActionsTest/Pods-ActionsTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -63,6 +65,7 @@
 		84C53FFB243E591700B73872 /* ActionsTest */ = {
 			isa = PBXGroup;
 			children = (
+				84C54010243E671A00B73872 /* exportOptions.plist */,
 				84C53FFC243E591700B73872 /* AppDelegate.swift */,
 				84C53FFE243E591700B73872 /* SceneDelegate.swift */,
 				84C54000243E591700B73872 /* ViewController.swift */,
@@ -154,6 +157,7 @@
 				84C54009243E591800B73872 /* LaunchScreen.storyboard in Resources */,
 				84C54006243E591800B73872 /* Assets.xcassets in Resources */,
 				84C54004243E591700B73872 /* Main.storyboard in Resources */,
+				84C54011243E671B00B73872 /* exportOptions.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
