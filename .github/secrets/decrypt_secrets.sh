@@ -10,7 +10,7 @@ cp ./.github/secrets/Actions_Test_Dist.mobileprovision.mobileprovision ~/Library
 
 
 security create-keychain -p "" build.keychain
-security import ./.github/secrets/nik_dist.p12 -t agg -k ~/Library/Keychains/build.keychain -P "" -A
+security import ./.github/secrets/nik_dist.p12 -t agg -k ~/Library/Keychains/build.keychain -P "test" -A
 
 security list-keychains -s ~/Library/Keychains/build.keychain
 security default-keychain -s ~/Library/Keychains/build.keychain
